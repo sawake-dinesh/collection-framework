@@ -14,9 +14,10 @@ public class TestList {
 
         Collections.sort(list);
         //for (Integer i : list)
-         // System.out.println(i);
+        //System.out.println();
 
-        list.forEach(System.out::println);
+        //list.forEach(System.out::println);
+        list.forEach(List->System.out.println(list));
 
 
     }
